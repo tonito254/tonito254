@@ -1,0 +1,19 @@
+.slideshow{
+    background-image: url("cover.jpg");
+    animation:slideshow 10 sec infinite;
+    opacity: 10;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+@keyframes slideshow {
+    0% {
+      background-image: url("cover.jpg");
+    }
+    50% {
+      background-image: url("10.jpg");
+    }
+    100% {
+      background-image: url("kibwezi sts.jpg");
+    }
+  }
